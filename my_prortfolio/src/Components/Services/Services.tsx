@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from '../Header/Header'
 
 const Services = () => {
   return (
-    <section id="services" className="services">
+    <>
+    <Header linked={true}/>
+    <section id="services" className="services section-show">
     <div className="container">
 
       <div className="section-title">
@@ -63,6 +66,7 @@ const Services = () => {
 
     </div>
   </section>
+  </>
   )
 }
 

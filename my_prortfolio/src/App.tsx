@@ -9,7 +9,7 @@ import Contact from './Components/Contact/Contact'
 const App = () => {
   return (
     <>
-      <Header/>
+      <Header linked={false}/>
       <About/>
       <Resume/>
       <Services/>

@@ -1,8 +1,13 @@
 import React from 'react'
+import Header from '../Header/Header'
 
 const About = () => {
   return (
-    <section id="about" className="about">
+    <>
+      <Header linked={true}/>
+      
+      
+  <section id="about" className="about section-show">
     <div className="about-me container">
 
       <div className="section-title">
@@ -315,6 +320,8 @@ const About = () => {
     </div>
 
   </section>
+    </>
+    
   )
 }
 

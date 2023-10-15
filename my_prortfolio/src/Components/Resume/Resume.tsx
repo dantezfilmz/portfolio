@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from '../Header/Header'
 
 const Resume = () => {
   return (
-    <section id="resume" className="resume">
+    <>
+    <Header linked={true}/>
+    <section id="resume" className="resume section-show">
     <div className="container">
 
       <div className="section-title">
@@ -72,6 +75,7 @@ const Resume = () => {
 
     </div>
   </section>
+  </>
   )
 }
 
