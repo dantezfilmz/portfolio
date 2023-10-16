@@ -20,7 +20,7 @@ const Skills = () => {
           <div key={index} className="col-lg-6">
             <div className="progress">
               <span className="skill">
-                {skill.name} <i className="val">{skill.percentage}%</i>
+                {skill.name} <i className="val">🎯</i>
               </span>
               <div className="progress-bar-wrap">
                 <div
