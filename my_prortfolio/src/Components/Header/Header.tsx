@@ -24,7 +24,7 @@ const Header: React.FC<Iprops> = ({ linked }: Iprops) => {
       <div className="container">
         <h1><Link to="/">Daniel Mogaka</Link></h1>
         <a href="/" className="mr-auto"><img src="assets/img/logo.png" alt="" className="img-fluid" /></a>
-        <h2>I'm a passionate <span>graphic designer</span> from New York</h2>
+        <h2>I am an <span>intrepid traveler</span>, an <span>adventurous filmmaker</span>, and a seeker of thrilling journeys. 🌍</h2>
 
         <nav id="navbar" className="navbar">
           <ul>
