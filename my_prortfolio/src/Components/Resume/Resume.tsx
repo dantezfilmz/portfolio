@@ -3,40 +3,38 @@ import Header from '../Header/Header';
 
 const educationData = [
   {
-    title: 'Master of Fine Arts & Graphic Design',
+    title: 'Master of Cinematography and Film Production',
     date: '2015 - 2016',
-    location: 'Rochester Institute of Technology, Rochester, NY',
-    description: 'Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend',
+    location: 'Kenya Film School, Nairobi, Kenya',
+    description: 'Studied the art of cinematography and film production with a focus on capturing Kenya\'s natural beauty and wildlife.',
   },
   {
-    title: 'Bachelor of Fine Arts & Graphic Design',
+    title: 'Bachelor of Adventure Tourism and Exploration',
     date: '2010 - 2014',
-    location: 'Rochester Institute of Technology, Rochester, NY',
-    description: 'Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis. Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem. Earum molestiae consequatur neque etlon sader mart dila',
+    location: 'Kenya Adventure University, Nairobi, Kenya',
+    description: 'Explored the diverse landscapes of Kenya and gained expertise in adventure tourism and exploration.',
   },
 ];
 
 const experienceData = [
   {
-    title: 'Senior graphic design specialist',
+    title: 'Lead Filmmaker and Expedition Guide',
     date: '2019 - Present',
-    company: 'Experion, New York, NY',
+    company: 'Kenya Adventure Films, Nairobi, Kenya',
     responsibilities: [
-      'Lead in the design, development, and implementation of the graphic, layout, and production communication materials',
-      'Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.',
-      'Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design',
-      'Oversee the efficient use of production project budgets ranging from $2,000 - $25,000',
+      'Lead in capturing the breathtaking landscapes, wildlife, and cultural experiences of Kenya on film.',
+      'Guide adventure tourists through Kenya\'s national parks and natural wonders.',
+      'Oversee the production of documentaries and promotional videos promoting Kenya as a prime adventure destination.',
     ],
   },
   {
-    title: 'Graphic design specialist',
+    title: 'Adventure Tour Specialist',
     date: '2017 - 2018',
-    company: 'Stepping Stone Advertising, New York, NY',
+    company: 'Safari Explorers Ltd, Nairobi, Kenya',
     responsibilities: [
-      'Developed numerous marketing programs (logos, brochures, infographics, presentations, and advertisements).',
-      'Managed up to 5 projects or tasks at a given time while under pressure',
-      'Recommended and consulted with clients on the most appropriate graphic design',
-      'Created 4+ design presentations and proposals a month for clients and account managers',
+      'Designed and organized adventure tours that showcased Kenya\'s stunning scenery and wildlife.',
+      'Provided memorable experiences for tourists seeking to explore Kenya\'s natural wonders.',
+      'Collaborated with local communities to promote responsible and sustainable tourism practices.',
     ],
   },
 ];
@@ -48,41 +46,40 @@ const Resume = () => {
       <section id="resume" className="resume section-show">
         <div className="container">
           <div className="section-title">
-            <h2>Resume</h2>
-            <p>Check My Resume</p>
+            <h2>Adventure Resume</h2>
+            <p>Explore My Adventure Journey</p>
           </div>
 
           <div className="row">
             <div className="col-lg-6">
-              <h3 className="resume-title">Summary</h3>
+              <h3 className="resume-title">Adventure Summary</h3>
               <div className="resume-item pb-0">
                 <h4>Daniel Mogaka</h4>
                 <p>
                   <em>
-                  I am a dedicated excursionist, capturing the world's wonders through film and exploration, with a special passion for the enchanting landscapes of Kenya
+                    I am a dedicated filmmaker and excursionist, capturing the wonders of Kenya's landscapes and wildlife through film and exploration.
                   </em>
                 </p>
                 <ul>
                   <li>Nairobi, Kenya</li>
                   <li>+254 720 845 837</li>
-                  <li>alice.barkley@example.com</li>
+                  <li>daniel.mogaka@example.com</li>
                 </ul>
               </div>
 
               <h3 className="resume-title">Education</h3>
               {educationData.map((education, index) => (
-  <div key={index}>
-    <div className="resume-item">
-      <h4>{education.title}</h4>
-      <h5>{education.date}</h5>
-      <p>
-        <em>{education.location}</em>
-      </p>
-      <p>{education.description}</p>
-    </div>
-  </div>
-))}
-
+                <div key={index}>
+                  <div className="resume-item">
+                    <h4>{education.title}</h4>
+                    <h5>{education.date}</h5>
+                    <p>
+                      <em>{education.location}</em>
+                    </p>
+                    <p>{education.description}</p>
+                  </div>
+                </div>
+              ))}
             </div>
             <div className="col-lg-6">
               <h3 className="resume-title">Professional Experience</h3>

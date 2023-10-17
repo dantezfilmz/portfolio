@@ -1,37 +1,37 @@
 import React from 'react';
 import Header from '../Header/Header';
-import { BiDroplet, BiFile, BiTachometer, BiWorld, BiSlideshow, BiArch } from 'react-icons/bi';
+import { BiCamera, BiWalk, BiGlasses, BiGlobe, BiCompass, BiWorld } from 'react-icons/bi';
 
 const serviceItems = [
   {
-    icon: <BiDroplet />,
-    title: 'Lorem Ipsum',
-    description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi',
+    icon: <BiCamera />,
+    title: 'Film Production',
+    description: 'Capturing the beauty and adventures of Kenya on film.',
   },
   {
-    icon: <BiFile />,
-    title: 'Sed ut perspiciatis',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    icon: <BiWalk />,
+    title: 'Adventure Tours',
+    description: 'Explore the breathtaking landscapes of Kenya through exciting adventure tours.',
   },
   {
-    icon: <BiTachometer />,
-    title: 'Magni Dolores',
-    description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia',
+    icon: <BiGlasses />,
+    title: 'Wildlife Watching',
+    description: 'Observe Kenya’s diverse wildlife with guided wildlife watching excursions.',
+  },
+  {
+    icon: <BiGlobe />,
+    title: 'Cultural Immersion',
+    description: 'Experience the rich culture and traditions of Kenya’s diverse communities.',
+  },
+  {
+    icon: <BiCompass />,
+    title: 'Guided Expeditions',
+    description: 'Embark on guided expeditions to Kenya’s most iconic destinations.',
   },
   {
     icon: <BiWorld />,
-    title: 'Nemo Enim',
-    description: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis',
-  },
-  {
-    icon: <BiSlideshow />,
-    title: 'Dele cardo',
-    description: 'Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur',
-  },
-  {
-    icon: <BiArch />,
-    title: 'Divera don',
-    description: 'Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur',
+    title: 'Eco-Tourism',
+    description: 'Promote eco-tourism and conservation efforts in Kenya’s natural wonders.',
   },
 ];
 
@@ -42,15 +42,15 @@ const Services = () => {
       <section id="services" className="services section-show">
         <div className="container">
           <div className="section-title">
-            <h2>Services</h2>
+            <h2>Explore Kenya</h2>
             <p>My Services</p>
           </div>
           <div className="row">
             {serviceItems.map((service, index) => (
               <div key={index} className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                 <div className="icon-box">
-                  <div className="icon"><i>{service.icon}</i></div>
-                  <h4><a href="">{service.title}</a></h4>
+                  <div className="icon">{service.icon}</div>
+                  <h4>{service.title}</h4>
                   <p>{service.description}</p>
                 </div>
               </div>
