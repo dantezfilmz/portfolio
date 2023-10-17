@@ -40,9 +40,9 @@ const Header: React.FC<Iprops> = ({ linked }: Iprops) => {
         </nav>
 
         <div className="social-links">
-          <a href="https://twitter.com/danmogaka" className="twitter"><FaTwitter /></a>
-          <a href="https://www.facebook.com/dhmogaka/" className="facebook"><FaFacebookF /></a>
-          <a href="https://www.instagram.com/excursion_ke/" className="instagram"><FaInstagram /></a>
+          <a href="https://twitter.com/danmogaka" className="twitter"><i><FaTwitter /></i></a>
+          <a href="https://www.facebook.com/dhmogaka/" className="facebook"><i><FaFacebookF /></i></a>
+          <a href="https://www.instagram.com/excursion_ke/" className="instagram"><i><FaInstagram /></i></a>
         </div>
       </div>
     </header>

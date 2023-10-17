@@ -4,9 +4,9 @@ import { FaMapMarkerAlt, FaEnvelope, FaPhone } from 'react-icons/fa';
 import { FaTwitter, FaFacebookF, FaInstagram } from 'react-icons/fa6';
 
 const socialLinks = [
-  { name: 'Twitter', icon: <FaTwitter />, link: '#' },
-  { name: 'Facebook', icon: <FaFacebookF />, link: '#' },
-  { name: 'Instagram', icon: <FaInstagram />, link: '#' },
+  { name: 'twitter', icon: <FaTwitter />, link: "https://twitter.com/danmogaka" },
+  { name: 'facebook', icon: <FaFacebookF />, link: 'https://www.facebook.com/dhmogaka/' },
+  { name: 'instagram', icon: <FaInstagram />, link: 'https://www.instagram.com/excursion_ke/' },
 ];
 
 const contactInfo = [
@@ -50,7 +50,7 @@ const Contact = () => {
             ))}
           </div>
 
-          <form action="forms/contact.php" method="post" role="form" className="php-email-form mt-4">
+          <form action="forms/contact.php" method="post" className="php-email-form mt-4">
             <div className="row">
               <div className="col-md-6 form-group">
                 <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />
@@ -74,6 +74,11 @@ const Contact = () => {
               <button type="submit">Send Message</button>
             </div>
           </form>
+        </div>
+        <div className="social-links">
+          {socialLinks.map((link, index) => (
+              <a key={index} href={link.link} className="twitter"><i>{link.icon}</i></a>
+            ))}
         </div>
       </section>
     </>

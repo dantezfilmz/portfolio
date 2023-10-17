@@ -43,7 +43,7 @@ const Services = () => {
         <div className="container">
           <div className="section-title">
             <h2>Explore Kenya</h2>
-            <p>Our Services</p>
+            <p>My Services</p>
           </div>
           <div className="row">
             {serviceItems.map((service, index) => (

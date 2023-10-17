@@ -7,31 +7,31 @@ import 'aos/dist/aos.css';
 const testimonialData = [
   {
     quote: "Exploring the world and capturing its beauty through the lens is my ultimate adventure. Every frame is a story waiting to be told.",
-    author: "Saul Goodman",
-    position: "Travel Filmmaker",
+    author: "Noel Osiro",
+    position: "Software Developer",
     imageSrc: "assets/img/testimonials/testimonials-1.jpg",
   },
   {
     quote: "In the heart of the wilderness, I find my inspiration. There's no script in nature, only the thrill of the unexpected.",
-    author: "Sara Wilsson",
+    author: "Phostine Ondimu",
     position: "Adventure Seeker",
     imageSrc: "assets/img/testimonials/testimonials-2.jpg",
   },
   {
     quote: "The road less traveled leads to the most extraordinary tales. Exploring uncharted territories is where adventure and creativity converge.",
-    author: "Jena Karlis",
+    author: "Peter Kaingu",
     position: "Adventurous Explorer",
     imageSrc: "assets/img/testimonials/testimonials-3.jpg",
   },
   {
     quote: "Adventure fuels my spirit. It's a relentless pursuit of the extraordinary, where every challenge is a plot twist in the grand story of life.",
-    author: "Matt Brandon",
+    author: "Tom Keane",
     position: "Adventure Enthusiast",
     imageSrc: "assets/img/testimonials/testimonials-4.jpg",
   },
   {
     quote: "Film is the canvas, and the world is the masterpiece. Traveling and telling stories on the go is a dream come true.",
-    author: "John Larson",
+    author: "Swaleh Vigosi",
     position: "Travel Filmmaker",
     imageSrc: "assets/img/testimonials/testimonials-5.jpg",
   },
