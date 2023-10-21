@@ -3,24 +3,24 @@ import Header from '../Header/Header';
 
 const educationData = [
   {
-    title: 'Master of Cinematography and Film Production',
-    date: '2015 - 2016',
-    location: 'Kenya Film School, Nairobi, Kenya',
+    title: 'Cinematography and Film Production',
+    date: '2014 - 2016',
+    location: 'ShangTao Media Arst College, Nairobi, Kenya',
     description: 'Studied the art of cinematography and film production with a focus on capturing Kenya\'s natural beauty and wildlife.',
   },
   {
-    title: 'Bachelor of Adventure Tourism and Exploration',
-    date: '2010 - 2014',
-    location: 'Kenya Adventure University, Nairobi, Kenya',
-    description: 'Explored the diverse landscapes of Kenya and gained expertise in adventure tourism and exploration.',
+    title: 'Film Production',
+    date: '2019 - 2020',
+    location: 'Filamu Juani Foundation, Nairobi, Kenya',
+    description: 'Developing an understanding of the underlying principles explored through a series of practical exercises based around the key creative components of filmmaking, leading up to the production of films',
   },
 ];
 
 const experienceData = [
   {
-    title: 'Lead Filmmaker and Expedition Guide',
+    title: 'Creative Director',
     date: '2019 - Present',
-    company: 'Kenya Adventure Films, Nairobi, Kenya',
+    company: 'Autofocus Entertainment, Nairobi, Kenya',
     responsibilities: [
       'Lead in capturing the breathtaking landscapes, wildlife, and cultural experiences of Kenya on film.',
       'Guide adventure tourists through Kenya\'s national parks and natural wonders.',
@@ -63,7 +63,7 @@ const Resume = () => {
                 <ul>
                   <li>Nairobi, Kenya</li>
                   <li>+254 720 845 837</li>
-                  <li>daniel.mogaka@example.com</li>
+                  <li>danielnyambane73@gmail.com</li>
                 </ul>
               </div>
 
